@@ -4,7 +4,7 @@ import { ChakraProvider,
   Heading,
   Box
  } from "@chakra-ui/react";
-import Homepage from "./pages";
+import Homepage from ".";
 import customTheme from "./public/theme";
 
 export default function Home() {

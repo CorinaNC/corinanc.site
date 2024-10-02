@@ -1,59 +1,75 @@
-import { Link, Box, HStack } from "@chakra-ui/react";
+"use client";
 
-export default function Header() {
+import { Link, Box, HStack, Container, Icon } from "@chakra-ui/react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+
+export default async function Header() {
   return (
-    <HStack justifyContent="center">
-      <Box>
-          <Link
-            href="https://github.com/CorinaNC"
-            target="_blank"
-            className="hover:underline"
-          >
-            GitHub
-          </Link>
-        </Box>
-        <Box>
-          <Link
-            href="https://linkedin.com/in/CorinaNC"
-            target="_blank"
-            className="hover:underline"
-          >
-            LinkedIn
-          </Link>
-        </Box>
-      <HStack ml={50}>
-        <Box>
+    <Container mt={50} mb={50}>
+      <HStack justifyContent="center">
+        <Box mr={25}>
             <Link
-              href="/about"
-              className="hover:underline"
+              href="https://github.com/CorinaNC"
+              target="_blank"
+              sx={{
+                _hover: {
+                  color: "gray",
+                  textDecoration: "underline",
+                },
+              }}
             >
-              about
-            </Link>
-          </Box>
-          <Box>
-            <Link
-              href="/projects"
-              className="hover:underline"
-            >
-              projects
-            </Link>
-          </Box>
-          <Box>
-            <Link
-              href="/writings"
-              className="hover:underline"
-            >
-              writings
-            </Link>
-          </Box>
-          <Box>
-            <Link
-              href="/resume"
-              className="hover:underline">
-                resume
+              <Icon as={FaGithub} boxSize={25}mr={2} />
+              /CorinaNC
               </Link>
           </Box>
+          <Box>
+            <Link
+              href="https://linkedin.com/in/CorinaNC"
+              sx={{
+                _hover: {
+                  color: "gray",
+                  textDecoration: "underline",
+                },
+              }}
+            >
+              <Icon as={FaLinkedin} boxSize={25} mr={6} ml={6} />
+              /in/CorinaNC
+            </Link>
+          </Box>
+        <HStack ml={100} spacing={30}>
+          <Box>
+              <Link
+                href="/about"
+                className="hover:underline"
+              >
+                about
+              </Link>
+            </Box>
+            <Box>
+              <Link
+                href="/projects"
+                className="hover:underline"
+              >
+                projects
+              </Link>
+            </Box>
+            <Box>
+              <Link
+                href="/writings"
+                className="hover:underline"
+              >
+                writings
+              </Link>
+            </Box>
+            <Box>
+              <Link
+                href="/resume"
+                className="hover:underline">
+                  resume
+                </Link>
+            </Box>
+          </HStack>
         </HStack>
-      </HStack>
+      </Container>
   )
 }

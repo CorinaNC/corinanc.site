@@ -1,7 +1,7 @@
 "use client";
 
 import { ChakraProvider } from "@chakra-ui/react"
-import Homepage from "../pages"
+import Homepage from ".."
 import customTheme from "../public/theme"
 export default function About() {
     return (

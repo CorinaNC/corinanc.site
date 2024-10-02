@@ -1,5 +1,8 @@
-export default function Writings() {
+import { Text } from "@chakra-ui/react"
+export default function writings() {
     return (
-        <p>Writings</p>
+        <Text>
+            Writings
+        </Text>
     )
 }

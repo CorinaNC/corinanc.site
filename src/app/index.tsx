@@ -2,12 +2,13 @@ import {Box,
     Heading,
     Text,
     VStack,
-    Image,
     Divider,
     Container,
+    Image,
     HStack,
     Stack
 } from "@chakra-ui/react";
+import Corina from './public/images/corina.png';
 
 export default function Homepage() {
     return (
@@ -17,16 +18,17 @@ export default function Homepage() {
                     <HStack justifyContent="center" alignItems="center">
                         <Box pt={10} display={{ md: 'flex' }}>
                             <Image
-                            src="https://media.discordapp.net/attachments/440991514144014386/1291075674769199155/profile.png?ex=66fec76b&is=66fd75eb&hm=5c7d59782e183a877bec36d1a4528c8ef38c903cef9c8caa9448c6833e857d4e&=&format=webp&quality=lossless&width=352&height=350"
+                            src={(Corina).src}
                             alt="Corina Conklin"
                             borderRadius="full"
                             boxSize="300px"
                             />
+
                             <Box flexGrow={1} paddingTop={50} marginLeft={10}>
-                            <Heading as="h1" color="White">
+                            <Heading as="h1">
                                 Hello, my name is Corina
                             </Heading>
-                            <Text color="White">Developer, Designer, and Writer.</Text>
+                            <Text>Developer, Designer, and Writer.</Text>
                             </Box>
                         </Box>
                     </HStack>
@@ -41,7 +43,7 @@ export default function Homepage() {
                             <Box pt={5} >
                                 <Stack spacing={3}>
                                     <Text>
-                                    Greetings, my name is Corina; I’m currently a Junior at the University of Minnesota-Twin Cities studying Computer Science and Creative Writing!
+                                    Greetings, my name is Corina; I'm currently a Junior at the University of Minnesota-Twin Cities studying Computer Science and Creative Writing!
                                     </Text>
                                     <Text>
                                     This past summer I worked as a software developer intern at Zurich Insurance!
@@ -53,7 +55,7 @@ export default function Homepage() {
                                     Outside of computer science, I write stories, poetry and music. I'm also a huge fan of time consuming JRPGs such as the modern Persona games. I built this website to archive my journey as a developer and as a personal blog page to whomever may be interested.
                                     </Text>
                                 </Stack>
-                            </Box>
+                        </Box>
                     </Box>
                 </VStack>
             </Box>

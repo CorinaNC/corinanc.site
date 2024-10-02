@@ -1,7 +1,9 @@
-import customTheme from "../public/theme"
-import Homepage from ".."
-export default async function Projects() {
+import { Text } from "@chakra-ui/react"
+
+export default function Projects() {
     return (
-        <p>Projects</p>
+            <Text>
+                Projects
+            </Text>
     )
 }

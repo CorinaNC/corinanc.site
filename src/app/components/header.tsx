@@ -42,7 +42,8 @@ export default function Header() {
             </Box>
             <Box>
               <Link
-                href="/resume">
+                href="https://drive.google.com/file/d/1nyp1vLaALu7a_-4U_g4W5NqKmMQHbjBK/view?usp=sharing"
+                target="_blank">
                   resume
                 </Link>
             </Box>

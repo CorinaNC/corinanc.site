@@ -18,12 +18,12 @@ export default function Homepage() {
                     <HStack justifyContent="center" alignItems="center">
                         <Box pt={10} display={{ md: 'flex' }}>
                             <Image
-                            src={(Corina).src}
+                            src={Corina.src}
                             alt="Corina Conklin"
                             borderRadius="full"
                             boxSize="300px"
+                            className="animated-border"
                             />
-
                             <Box flexGrow={1} paddingTop={50} marginLeft={10}>
                             <Heading as="h1">
                                 Hello, my name is Corina

@@ -3,8 +3,9 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./components/header";
 import Footer from "./components/footer";
+import Wrapper from "./components/wrapper";
 import { Providers } from "./providers";
-
+import icon from './favicon.ico'
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -19,6 +20,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Corina Conklin",
   description: "Personal Site",
+  icons: [ icon.src ],
 };
 
 export default function RootLayout({
@@ -31,10 +33,15 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Providers>
-          <Header />
-            {children}
-          <Footer />
+          <Wrapper>
+            <Header />
+              <div className="fade-in">
+                {children}
+              </div>
+            <Footer />
+          </Wrapper>
         </Providers>
+
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script noModule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
       </body>

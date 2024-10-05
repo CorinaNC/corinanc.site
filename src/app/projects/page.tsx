@@ -14,11 +14,11 @@ import holeInTheGround from "../public/images/hole.png"
 export default function Projects() {
     return (
         <Container alignContent="center">
-            <Heading as="h1" size="lg" mb={30} textAlign="center">
+            <Heading as="h1" size="xl" mb={30} textAlign="center">
                 Projects
             </Heading>
 
-            <Heading as="h1" size="sm" textAlign="center">
+            <Heading as="h1" size="md" textAlign="center">
                 Personal (stuff I've made or largely contributed to!)
             </Heading>
             <SimpleGrid columns={[1, 2, 2]} gap={3} paddingTop={'10px'}>
@@ -68,7 +68,7 @@ export default function Projects() {
                     </Text>
                 </Section>
             </SimpleGrid>
-            <Heading as="h1" size="sm" textAlign="center">
+            <Heading as="h1" size="md" mt={50} mb={50} textAlign="center">
                 School (archive of assignments and projects for school!)
                 </Heading>
                 <SimpleGrid columns={[1, 2, 2]} gap={3} paddingTop={'10px'}>

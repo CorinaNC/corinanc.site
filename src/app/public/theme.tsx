@@ -41,7 +41,8 @@ const customTheme = extendTheme({
         fontFamily: "Inter",
         fontSize: "xl",
       }
-    }
+    },
+
   },
 });
 

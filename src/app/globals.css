@@ -17,7 +17,12 @@
     --background: #252127;
   }
 }
-
+.icon-container {
+  transition: transform 0.2s;
+}
+.icon-container:hover {
+  transform: translateY(-10px);
+}
 body {
   color: var(--foreground);
   background: var(--background);

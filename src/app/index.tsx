@@ -9,6 +9,8 @@ import {Box,
     Stack
 } from "@chakra-ui/react";
 import Corina from './public/images/corina.png';
+import Experience from './components/experience';
+import Technologies from "./components/technologies";
 
 export default function Homepage() {
     return (
@@ -18,47 +20,49 @@ export default function Homepage() {
                     <HStack justifyContent="center" alignItems="center">
                         <Box pt={10} display={{ md: 'flex' }}>
                             <Image
-                            src={Corina.src}
-                            alt="Corina Conklin"
-                            borderRadius="full"
-                            boxSize="300px"
-                            className="animated-border"
+                                src={Corina.src}
+                                alt="Corina Conklin"
+                                borderRadius="full"
+                                boxSize="300px"
+                                className="animated-border"
                             />
                             <Box flexGrow={1} paddingTop={50} marginLeft={10}>
-                            <Heading as="h1">
-                                Hello, my name is Corina
-                            </Heading>
-                            <Text>Developer, Designer, and Writer.</Text>
+                                <Heading as="h1">
+                                    Hello, my name is Corina
+                                </Heading>
+                                <Text>Developer, Designer, and Writer.</Text>
                             </Box>
                         </Box>
                     </HStack>
                     <Box maxW='1000px' overflow='hidden'>
                         <Divider />
                         <Heading 
-                        as="h3" 
-                        color="White" 
-                        textAlign="center" 
-                        paddingBottom={5} 
-                        paddingTop={5}>Welcome  Home</Heading>
-                            <Box pt={5} >
-                                <Stack spacing={3}>
-                                    <Text>
-                                    Greetings, my name is Corina; I'm currently a Junior at the University of Minnesota-Twin Cities studying Computer Science and Creative Writing!
-                                    </Text>
-                                    <Text>
-                                    This past summer I worked as a software developer intern at Zurich Insurance!
-                                    </Text>
-                                    <Text>
+                            as="h3" 
+                            color="White" 
+                            textAlign="center" 
+                            paddingBottom={5} 
+                            paddingTop={5}>Welcome Home</Heading>
+                        <Box pt={5}>
+                            <Stack spacing={3} 
+                            pb={5}>
+                                <Text>
+                                    Greetings, my name is Corina; I'm currently a Junior at the University of Minnesota-Twin Cities studying Computer Science and Creative Writing!  My familiarity lies with web development but I'm expanding my knowledge to include mobile apps, game development, and human computer interaction.
+                                </Text>
+                                <Text>
                                     In fifth grade, when asked what I wanted to be when I grew up, I responded with: "A software developer!"
-                                    </Text>
-                                    <Text>
+                                </Text>
+                                <Text>
                                     Outside of computer science, I write stories, poetry and music. I'm also a huge fan of time consuming JRPGs such as the modern Persona games. I built this website to archive my journey as a developer and as a personal blog page to whomever may be interested.
-                                    </Text>
-                                </Stack>
+                                </Text>
+                            </Stack>
                         </Box>
                     </Box>
                 </VStack>
             </Box>
-        </Container>
+            <Box ml={-30} mr={-30}>
+                <Experience />
+            </Box>
+            <Technologies />
+    </Container>
     )
 }

@@ -10,5 +10,6 @@ export default function writings() {
                 I wanted to get the site up and running before I finish this page.. it'll be up soon!
             </Text>
         </Container>
+        
     )
 }

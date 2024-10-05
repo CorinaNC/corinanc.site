@@ -1,54 +1,30 @@
-'use client'
-import { Link, Box, HStack, Container, Icon } from "@chakra-ui/react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+"use client";
+
+import { Container, Box, Link, Icon } from '@chakra-ui/react';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import './Header.css';
 
 export default function Header() {
   return (
-    <Container mt={50} mb={50} maxW="100%">
-      <HStack justifyContent="center" >
-        <Box mr={25}>
-            <Link
-              href="https://github.com/CorinaNC"
-              target="_blank">
-              <Icon as={FaGithub} boxSize={5} mr={2} />
-              /CorinaNC
-              </Link>
-          </Box>
-          <Box>
-            <Link
-              href="https://linkedin.com/in/CorinaNC">
-              <Icon as={FaLinkedin} boxSize={5} mr={2} ml={6} />
-              /in/CorinaNC
-            </Link>
-          </Box>
-        <HStack ml={100} spacing={30}>
-          <Box>
-              <Link
-                href="/about">
-                about
-              </Link>
-            </Box>
-            <Box>
-              <Link
-                href="/projects">
-                projects
-              </Link>
-            </Box>
-            <Box>
-              <Link
-                href="/writings">
-                writings
-              </Link>
-            </Box>
-            <Box>
-              <Link
-                href=""
-                target="_blank">
-                  resume
-                </Link>
-            </Box>
-          </HStack>
-        </HStack>
-      </Container>
-  )
+    <Container mt={10} mb={10} maxW="100%" className="header-container">
+      <Box className="header-stack">
+        <Box className="header-hstack">
+          <Link href="https://github.com/CorinaNC" target="_blank" className="header-link">
+            <Icon as={FaGithub} className="header-icon" />
+            /CorinaNC
+          </Link>
+          <Link href="https://linkedin.com/in/CorinaNC" target="_blank" className="header-link">
+            <Icon as={FaLinkedin} className="header-icon" />
+            /in/CorinaNC
+          </Link>
+        </Box>
+        <Box className="header-hstack">
+          <Link href="/about" className="header-link">about</Link>
+          <Link href="/projects" className="header-link">projects</Link>
+          <Link href="/writings" className="header-link">writings</Link>
+          <Link href="" target="_blank" className="header-link">resume</Link>
+        </Box>
+      </Box>
+    </Container>
+  );
 }

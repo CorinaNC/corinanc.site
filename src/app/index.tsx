@@ -52,7 +52,10 @@ export default function Homepage() {
                                     In fifth grade, when asked what I wanted to be when I grew up, I responded with: "A software developer!"
                                 </Text>
                                 <Text>
-                                    Outside of computer science, I write stories, poetry and music. I'm also a huge fan of time consuming JRPGs such as the modern Persona games. I built this website to archive my journey as a developer and as a personal blog page to whomever may be interested.
+                                    Outside of computer science, I write stories and poetry.  Additionally, I'm a hobbyist video editor and guitarist.  
+                                </Text>
+                                    <Text>
+                                    I built this website to archive my journey as a developer and as a personal blog page to whomever may be interested.
                                 </Text>
                             </Stack>
                         </Box>

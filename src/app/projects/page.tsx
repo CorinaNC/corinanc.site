@@ -31,7 +31,7 @@ export default function Projects() {
                         Ren'Py & PyGame
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
-                        A visual novel that was developed solely by me with art and music from two of my friends.  I ran into some hurdles as I went into this with no game development experience; however, we ended up outputing a final product demo!  Built with Ren'Py and PyGame.
+                        A visual novel that was developed solely by me with art and music from two of my friends.  I ran into some hurdles as I went into this with no game development experience; however, we ended up outputing a final product demo!  Built for Global Game Jam 2024.
                     </Text>
                 </Section>
                 <Section delay={0.1}>
@@ -42,7 +42,7 @@ export default function Projects() {
                         Quality Engineering @ HackUIowa 2023
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
-                        A hackathon project between myself and two of my colleagues in Social Coding.  We built a web application to send soil information to farmers such as moisture, temperature, and pH levels.  I worked on the web application both frontend and backend.
+                        A hackathon project between myself and three of my colleagues from U of MN's Social Coding club.  We utilized an arduino to send soil information to farmers such as moisture, temperature, and pH levels.  I worked on the web application and API endpoints.
                     </Text>
                 </Section>
                 <Section delay={0.15}>
@@ -53,7 +53,7 @@ export default function Projects() {
                         React, Next.js, Express.js, ChakraUI
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
-                        Multicultural Food Club was both a project and club which I served as the vice president.  We are currently in the process of deploying a website for U of MN students to use to review restaurants around campus.  I serve as the lead fullstack developer for this project.
+                        Multicultural Food Club is both a project and club of the same name. I serve as the vice president and lead fullstack developer.  We're currently in the process of building a web application for U of M students to review restaurants around campus.
                     </Text>
                 </Section>
                 <Section delay={0.15}>

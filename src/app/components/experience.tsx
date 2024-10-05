@@ -29,10 +29,10 @@ export default function Experience() {
         {
             title: "B.S. Computer Science + Creative Writing Minor",
             company: "University of Minnesota-Twin Cities",
-            timePeriod: "Expected to Graduate May 2026",
+            timePeriod: "Sep 2022 - May 2026 (expected)",
             location: "Minneapolis, MN",
             icon: UofM,
-            description: "I'm a part of the College of Science and Engineering!  My favorite course thus far has been Programming Interactive Games and Graphics :)",
+            description: "I'm a part of the College of Science and Engineering!  My favorite course thus far has been Programming Interactive Games and Graphics.",
         },
     ];
 

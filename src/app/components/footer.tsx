@@ -5,22 +5,23 @@ import { IoLogoGithub, IoLogoLinkedin, IoIosMail } from 'react-icons/io';
 
 export default function Footer() {
   return (
-    <Box mt="auto" pt={0}>
+    
+    <Box mt="auto" maxWidth="100%">
       <Container bg="#0C003D" maxW="100%" justifyContent="center" pt={50} pb={50}>
-        <HStack justifyContent="center" spacing={30} pb={30}>
+        <HStack justifyContent="center" spacing={{ base: 10, md: 30 }} pb={30}>
           <Box sx={{ _hover: { color: "Gray" } }}>
             <Link href="https://github.com/CorinaNC" target="_blank">
-              <Icon as={IoLogoGithub} boxSize={50} />
+              <Icon as={IoLogoGithub} boxSize={{ base: 30, md: 50 }} />
             </Link>
           </Box>
           <Box sx={{ _hover: { color: "Gray" } }}>
             <Link href="https://www.linkedin.com/in/CorinaNC/" target="_blank">
-              <Icon as={IoLogoLinkedin} boxSize={50} />
+              <Icon as={IoLogoLinkedin} boxSize={{ base: 30, md: 50 }} />
             </Link>
           </Box>
           <Box sx={{ _hover: { color: "Gray" } }}>
             <Link href="mailto:conkl095@umn.edu" target="_blank">
-              <Icon as={IoIosMail} boxSize={50} />
+              <Icon as={IoIosMail} boxSize={{ base: 30, md: 50 }} />
             </Link>
           </Box>
         </HStack>

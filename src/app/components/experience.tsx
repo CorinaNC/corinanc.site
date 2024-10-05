@@ -32,7 +32,7 @@ export default function Experience() {
             timePeriod: "Expected to Graduate May 2026",
             location: "Minneapolis, MN",
             icon: UofM,
-            description: "I'm apart of the College of Science and Engineering!  My favorite course thus far has been Programming Interactive Games and Graphics :)",
+            description: "I'm a part of the College of Science and Engineering!  My favorite course thus far has been Programming Interactive Games and Graphics :)",
         },
     ];
 

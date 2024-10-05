@@ -1,6 +1,6 @@
 'use client'
 
-import { Heading, Container, Grid, Tooltip } from "@chakra-ui/react"
+import { Heading, Container, Grid, Tooltip, useBreakpointValue } from "@chakra-ui/react"
 import Section from "./section"
 import { Icon, loadIcons } from '@iconify/react';
 const technologies: string[] = [
@@ -60,10 +60,11 @@ const technologyNames: { [key: string]: string } = {
 };
 
 export default function Technologies() {
+    const columns = useBreakpointValue({ base: 'repeat(4, 2fr)', md: 'repeat(5, 2fr)' });
     return (
-        <Container alignItems="center" textAlign="center">
-            <Heading size="md" mt={20} mb={10}>Languages & Technologies</Heading>
-            <Grid templateColumns='repeat(6, 2fr)' gap={5}>
+        <Container>
+            <Heading size="md" mt={20} mb={10} textAlign="center">Languages & Technologies</Heading>
+            <Grid templateColumns={columns} gap={5}>
                 {technologies.map((technology, index) => (
                     <Section key={index} delay={0.5 + index * 0.1}>
                         <Tooltip label={technologyNames[technology]} aria-label={technologyNames[technology]}>

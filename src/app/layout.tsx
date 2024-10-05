@@ -6,6 +6,15 @@ import Footer from "./components/footer";
 import Wrapper from "./components/wrapper";
 import { Providers } from "./providers";
 import icon from './favicon.ico'
+import type { Viewport } from 'next'
+ 
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+}
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -30,6 +39,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+      />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Providers>
@@ -41,7 +52,6 @@ export default function RootLayout({
             <Footer />
           </Wrapper>
         </Providers>
-
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script noModule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
       </body>

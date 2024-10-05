@@ -52,6 +52,7 @@ export default function Experience() {
                                 paddingLeft="1px"
                                 background="white"
                                 borderRadius="50%"
+                                alt=""
                                 src={experience.icon.src}
                               />
                             </Box>

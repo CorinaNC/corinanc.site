@@ -2,7 +2,6 @@
 
 import { Container, Box, Link, Icon } from '@chakra-ui/react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import './header.css';
 
 export default function Header() {
   return (

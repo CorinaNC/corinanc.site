@@ -53,7 +53,7 @@ export default function Projects() {
                         React, Next.js, Express.js, ChakraUI
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
-                        Multicultural Food Club is both a project and club of the same name. I serve as the vice president and lead fullstack developer.  We're currently in the process of building a web application for U of M students to review restaurants around campus.
+                        Multicultural Food Club is both a project and club of the same name. I serve as the vice president and lead fullstack developer.  We're currently in the process of building a web application for U of MN students to review restaurants around campus.
                     </Text>
                 </Section>
                 <Section delay={0.15}>

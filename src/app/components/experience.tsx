@@ -44,7 +44,6 @@ export default function Experience() {
                     <VerticalTimelineElement 
                         visible={true}
                         key={index}
-                        animate={true}
                         icon={
                             <Box>
                               <Image

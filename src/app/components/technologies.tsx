@@ -3,7 +3,7 @@
 import { Heading, Container, Grid, Tooltip } from "@chakra-ui/react"
 import Section from "./section"
 import { Icon, loadIcons } from '@iconify/react';
-const technologies = [
+const technologies: string[] = [
     "vscode-icons:file-type-python",
     "vscode-icons:file-type-c3",
     "vscode-icons:file-type-csharp2",
@@ -32,7 +32,7 @@ const technologies = [
 
 loadIcons(technologies);
 
-const technologyNames = {
+const technologyNames: { [key: string]: string } = {
     "vscode-icons:file-type-python": "Python",
     "vscode-icons:file-type-c3": "C",
     "vscode-icons:file-type-csharp2": "C#",

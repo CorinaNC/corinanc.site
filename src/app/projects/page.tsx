@@ -42,7 +42,7 @@ export default function Projects() {
                         Quality Engineering @ HackUIowa 2023
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
-                        A hackathon project between myself and three of my colleagues from U of MN's Social Coding club.  We utilized an arduino to measure soil information - such as moisture, temperature, and pH levels - which would then be sent to a web app.  I worked on the web application and API endpoints.
+                        A hackathon project between myself and three of my colleagues from U of MN's Social Coding club.  We utilized an arduino to measure soil information - such as moisture, temperature, and light sensitivity - which would then be sent to a web app.  I worked on the web application and API endpoints.
                     </Text>
                 </Section>
                 <Section delay={0.15}>

@@ -22,7 +22,7 @@ export default function Header() {
           <Link href="/about" className="header-link">about</Link>
           <Link href="/projects" className="header-link">projects</Link>
           <Link href="/writings" className="header-link">writings</Link>
-          <Link href="" target="_blank" className="header-link">resume</Link>
+          <Link href="https://drive.google.com/file/d/1nyp1vLaALu7a_-4U_g4W5NqKmMQHbjBK/view?usp=sharing" target="_blank" className="header-link">resume</Link>
         </Box>
       </Box>
     </Container>

@@ -13,7 +13,6 @@ export const WorkGridItem = ({ children, href, title, thumbnail }: WorkGridItemP
   <Box
     w="100%"
     textAlign="center"
-    transition="all 0.2s ease-in-out"
     _hover={{ transform: 'translateY(-2px)', color: '#4C7863' }}>
     <LinkBox cursor="pointer">
       <Box

@@ -1,11 +1,16 @@
 'use client'
 import { Link, Box, HStack, Container, Icon, VStack, useBreakpointValue } from "@chakra-ui/react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { useState, useEffect } from "react";
 
 export default function Header() {
   const isMobile = useBreakpointValue({ base: true, md: false });
   return (
-    <Container mt={10} mb={10} maxW="100%">
+    <Container
+      mt={10}
+      mb={10}
+      maxW="100%"
+    >
       <VStack spacing={5} alignItems="center">
         <HStack spacing={5}>
           <Link href="https://github.com/CorinaNC" target="_blank" aria-label="GitHub">

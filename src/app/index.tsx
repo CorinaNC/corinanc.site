@@ -13,6 +13,7 @@ import Experience from './components/experience';
 import Technologies from "./components/technologies";
 
 export default function Homepage() {
+    
     return (
         <Container paddingTop="15px" maxW="2xl">
             <Box bg="#252127" minH="100vh">

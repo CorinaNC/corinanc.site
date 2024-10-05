@@ -4,7 +4,7 @@ import customTheme from "./public/theme";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ChakraProvider theme={customTheme}>
+    <ChakraProvider resetCSS theme={customTheme}>
       <Component {...pageProps} />
     </ChakraProvider>
   );

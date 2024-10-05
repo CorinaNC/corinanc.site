@@ -1,19 +1,15 @@
-import type { Metadata } from "next";
+"use client"
+
 import localFont from "next/font/local";
 import "./globals.css";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import Wrapper from "./components/wrapper";
 import { Providers } from "./providers";
-import icon from './favicon.ico'
-import type { Viewport } from 'next'
- 
-export const viewport: Viewport = {
-  width: 'device-width',
-  initialScale: 1,
-  maximumScale: 1,
-  userScalable: false,
-}
+import icon from './favicon.ico';
+import { useState, useEffect } from "react";
+import { Spinner } from "@chakra-ui/react";
+import { html } from "framer-motion/client";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -26,27 +22,37 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-export const metadata: Metadata = {
-  title: "Corina Conklin",
-  description: "Personal Site",
-  icons: [ icon.src ],
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const [isReady, setIsReady] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsReady(true);
+    }, 50);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (!isReady) {
+    return (
+      <html lang="en">
+        <body>
+        <Spinner />
+        </body>
+      </html>
+    );
+  }
   return (
     <html lang="en">
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
-      />
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        className={`${geistSans.variable} ${geistMono.variable} antialiased fade-in`}>
         <Providers>
-          <Wrapper>
+          <Wrapper >
             <Header />
-              <div className="fade-in">
+              <div>
                 {children}
               </div>
             <Footer />

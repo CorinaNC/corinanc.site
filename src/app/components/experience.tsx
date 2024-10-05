@@ -3,6 +3,7 @@
 import { Container, Text, Box, Image, Heading } from "@chakra-ui/react";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import { StaticImageData } from "next/image";
 import Zurich from "../public/images/zurich.png";
 import UofM from "../public/images/uofM.png";
 
@@ -10,7 +11,7 @@ interface Experience {
     title: string;
     company: string;
     timePeriod: string;
-    icon: any;
+    icon: StaticImageData;
     location: string;
     description?: string;
 }

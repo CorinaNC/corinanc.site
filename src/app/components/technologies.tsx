@@ -1,6 +1,6 @@
 'use client'
 
-import { Card, Heading, Container, Grid, Tooltip } from "@chakra-ui/react"
+import { Heading, Container, Grid, Tooltip } from "@chakra-ui/react"
 import Section from "./section"
 import { Icon, loadIcons } from '@iconify/react';
 const technologies = [

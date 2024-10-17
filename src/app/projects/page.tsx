@@ -32,7 +32,7 @@ export default function Projects() {
                         Ren'Py & PyGame
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
-                        A visual novel that was developed solely by me with art and music from two of my friends.  I ran into some hurdles as I went into this with no game development experience; however, we ended up outputing a final product demo!  Built for Global Game Jam 2024.
+                        A visual novel that was developed and written individually by myself with art and music from two of my friends.  I ran into some hurdles as I went into this with no game development experience; however, we ended up outputing a final product demo!  Built for Global Game Jam 2024.
                     </Text>
                 </Section>
                 <Section delay={0.1}>

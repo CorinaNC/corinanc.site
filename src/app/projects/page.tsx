@@ -10,6 +10,7 @@ import  multiCultural from "../public/images/MCFC.png"
 import porfolioSite from "../public/images/portfolio.png"
 import rainingHelvetica from "../public/images/helvetica.png"
 import holeInTheGround from "../public/images/hole.png"
+import earthquakeVisualizer from "../public/images/earthQuake.png"
 
 export default function Projects() {
     return (
@@ -92,6 +93,17 @@ export default function Projects() {
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
                         For this assignment, we were tasked with programming 3D physics for hole and rigid body interactions.  I had less contribution for this assignment, as it was mostly based around the starter code which provided premade objects. I did however, implement the physics for the hole and the rigid bodies.
+                    </Text>
+                </Section>
+                <Section delay={0.1}>
+                    <WorkGridItem
+                        href="https://csci-4611-fall-2024.github.io/assignment-3-CorinaNC/"
+                        title="Earthquake Visualizer"
+                        thumbnail={earthquakeVisualizer.src}>
+                        GopherGFX
+                    </WorkGridItem>
+                    <Text fontFamily="Inter" textAlign="center">
+                        I worked on an earthquake visualizer for this assignment.  There was more math involved than what I expected, but it was a fun challenge.  My contribution were the plane and globe meshes alongside the positioning and spawning of the earthquake markers.  I also implemented texture mapping for both the globe and 2d map!  The data was fetched from NASA and USGS.
                     </Text>
                 </Section>
             </SimpleGrid>

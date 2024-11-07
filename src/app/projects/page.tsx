@@ -11,6 +11,7 @@ import porfolioSite from "../public/images/portfolio.png"
 import rainingHelvetica from "../public/images/helvetica.png"
 import holeInTheGround from "../public/images/hole.png"
 import earthquakeVisualizer from "../public/images/earthQuake.png"
+import antsDance from "../public/images/ant.png"
 
 export default function Projects() {
     return (
@@ -104,6 +105,17 @@ export default function Projects() {
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
                         I worked on an earthquake visualizer for this assignment.  There was more math involved than what I expected, but it was a fun challenge.  My contribution were the plane and globe meshes alongside the positioning and spawning of the earthquake markers.  I also implemented texture mapping for both the globe and 2d map!  The data was fetched from NASA and USGS.
+                    </Text>
+                </Section>
+                <Section delay={0.1}>
+                    <WorkGridItem
+                        href="https://csci-4611-fall-2024.github.io/assignment-4-CorinaNC/"
+                        title="So You Think Ants Can Dance"
+                        thumbnail={antsDance.src}>
+                        GopherGFX
+                    </WorkGridItem>
+                    <Text fontFamily="Inter" textAlign="center">
+                        "So You Think Ants Can Dance" is a project I did where we worked with motion capture data from Carnegie Mellon and then mapped said data to a 3d model.  I had some technical issues building my model, but the motion data works perfectly fine!
                     </Text>
                 </Section>
             </SimpleGrid>

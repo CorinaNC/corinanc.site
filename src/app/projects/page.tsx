@@ -12,6 +12,7 @@ import rainingHelvetica from "../public/images/helvetica.png"
 import holeInTheGround from "../public/images/hole.png"
 import earthquakeVisualizer from "../public/images/earthQuake.png"
 import antsDance from "../public/images/ant.png"
+import tomoBread from "../public/images/tomoBread.png"
 
 export default function Projects() {
     return (
@@ -24,6 +25,17 @@ export default function Projects() {
                 Personal (stuff I've made or largely contributed to!)
             </Heading>
             <SimpleGrid columns={[1, 2, 2]} gap={3} paddingTop={'10px'}>
+            <Section delay={0.05}>
+                    <WorkGridItem
+                        href="https://devpost.com/software/tomobread"
+                        title="TomoBread"
+                        thumbnail={tomoBread.src}>
+                        MadHacks 2024
+                    </WorkGridItem>
+                    <Text fontFamily="Inter" textAlign="center">
+                        TomoBread is an anti-procrastination app that promotes productivity by letting the user interact with the TomoBread character!  The character's design and spritework were done by my roommate.  We learned a lot about API integration, full stack interaction, game development, and authentication.
+                    </Text>
+                </Section>
                 <Section delay={0.05}>
                     <WorkGridItem
                         href="https://globalgamejam.org/games/2024/work-progress-4"

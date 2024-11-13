@@ -30,7 +30,7 @@ export default function Projects() {
                         href="https://devpost.com/software/tomobread"
                         title="TomoBread"
                         thumbnail={tomoBread.src}>
-                        MadHacks 2024
+                        Hacker's Choice Award @ MadHacks 2024
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
                         TomoBread is an anti-procrastination app that promotes productivity by letting the user interact with the TomoBread character!  The character's design and spritework were done by my roommate.  We learned a lot about API integration, full stack interaction, game development, and authentication.

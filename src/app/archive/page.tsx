@@ -10,7 +10,7 @@ export default function Archive() {
             <HStack alignItems="center">
                 <List textDecoration="underline">
                     <Link href="archive/finishedArchive">
-                    > Finished Archive
+                    {'>'} Finished Archive
                     </Link>
                 </List>
                 <Text textColor="#A274B8" ml={5} fontFamily="Courier">
@@ -20,7 +20,7 @@ export default function Archive() {
             <HStack alignItems="center">
                 <List textDecoration="underline">
                     <Link href="archive/favoriteSongs">
-                    > Favorite Songs & Albums
+                    {'>'} Favorite Songs & Albums
                     </Link>
                 </List>
                 <Text textColor="#A274B8" ml={5} fontFamily="Courier">

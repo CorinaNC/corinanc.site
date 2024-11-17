@@ -25,7 +25,7 @@ export default function Header() {
         <HStack spacing={isMobile ? 5 : 10}>
           <Link href="/about">about</Link>
           <Link href="/projects">projects</Link>
-          <Link href="/writings">writings</Link>
+          <Link href="/archive">archive</Link>
           <Link href="https://drive.google.com/file/d/1nyp1vLaALu7a_-4U_g4W5NqKmMQHbjBK/view?usp=sharing" target="_blank">resume</Link>
         </HStack>
       </VStack>

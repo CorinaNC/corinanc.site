@@ -19,7 +19,7 @@ const songs = [
 const albums = [
   { name: "1. La Dispute - Wildlife (2011)", url: "https://genius.com/albums/La-dispute/Wildlife" },
   { name: "2. The Hotelier - Home, Like Noplace Is There (2014)", url: "https://genius.com/albums/The-hotelier/Home-like-noplace-is-there" },
-  { name: "3. Casey - Where I Go When I Am Sleeping", url: "https://genius.com/albums/Casey/Where-i-go-when-i-am-sleeping" },
+  { name: "3. Casey - Where I Go When I Am Sleeping (2016)", url: "https://genius.com/albums/Casey/Where-i-go-when-i-am-sleeping" },
   { name: "4. Hot Mulligan - Why Would I Watch (2023)", url: "https://genius.com/albums/Hot-mulligan/Why-would-i-watch" },
   { name: "5. Motionless in White - Disguise (2019)", url: "https://genius.com/albums/Motionless-in-white/Disguise" },
 ];

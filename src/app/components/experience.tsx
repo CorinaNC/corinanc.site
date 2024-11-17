@@ -37,7 +37,7 @@ export default function Experience() {
     ];
 
     return (
-        <Container maxW="3xl">
+        <Container maxW="full">
             <Heading as="h1" size="lg" textAlign="center" mb={6}>Education & Experience</Heading>
             <VerticalTimeline layout={'2-columns'} lineColor="white">
                 {experiences.map((experience, index) => (

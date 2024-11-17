@@ -15,7 +15,7 @@ import Technologies from "./components/technologies";
 export default function Homepage() {
     
     return (
-        <Container paddingTop="15px" maxW="2xl">
+        <Container paddingTop="15px" maxW="3xl">
             <Box bg="#252127" minH="100vh">
                 <VStack spacing={50} align="center">
                     <HStack justifyContent="center" alignItems="center">
@@ -43,7 +43,7 @@ export default function Homepage() {
                             textAlign="center" 
                             paddingBottom={5} 
                             paddingTop={5}>Welcome Home</Heading>
-                        <Box pt={5}>
+                        <Box pt={5} maxW="2xl">
                             <Stack spacing={3} 
                             pb={5}>
                                 <Text>

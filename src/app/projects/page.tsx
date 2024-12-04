@@ -13,6 +13,8 @@ import holeInTheGround from "../public/images/hole.png"
 import earthquakeVisualizer from "../public/images/earthQuake.png"
 import antsDance from "../public/images/ant.png"
 import tomoBread from "../public/images/tomoBread.png"
+import worldOfDrawings from "../public/images/worldOfDrawings.png"
+import artisticRendering from "../public/images/artisticRendering.png"
 
 export default function Projects() {
     return (
@@ -117,6 +119,28 @@ export default function Projects() {
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
                         "So You Think Ants Can Dance" is a project I did where we worked with motion capture data from Carnegie Mellon and then mapped said data to a 3d model.  I had some technical issues building my model, but the motion data works perfectly fine!
+                    </Text>
+                </Section>
+                <Section delay={0.1}>
+                    <WorkGridItem
+                        href="https://csci-4611-fall-2024.github.io/assignment-5-CorinaNC/"
+                        title="Artistic Rendering"
+                        thumbnail={artisticRendering.src}>
+                        GopherGFX, GLSL
+                    </WorkGridItem>
+                    <Text fontFamily="Inter" textAlign="center">
+                        This assignment was more technical rather than artistic as it was mostly practice for coding shaders.  I enjoyed coding the toon shader specifically; I'm especially glad that I got some experience with GLSL.
+                    </Text>
+                </Section>
+                <Section delay={0.1}>
+                    <WorkGridItem
+                        href="https://csci-4611-fall-2024.github.io/assignment-6-CorinaNC/"
+                        title="A World Made of Drawings"
+                        thumbnail={worldOfDrawings.src}>
+                        GopherGFX
+                    </WorkGridItem>
+                    <Text fontFamily="Inter" textAlign="center">
+                        One of the less technical projects we did but probably the coolest (at least in my opinion).  We created a browser 'game' that is inspired by Harold's Purple Crayon where the user can draw an environment and sky to explore!  Pretty basic operations but I enjoyed seeing my tools come to life.
                     </Text>
                 </Section>
             </SimpleGrid>

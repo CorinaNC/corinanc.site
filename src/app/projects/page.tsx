@@ -15,6 +15,7 @@ import antsDance from "../public/images/ant.png"
 import tomoBread from "../public/images/tomoBread.png"
 import worldOfDrawings from "../public/images/worldOfDrawings.png"
 import artisticRendering from "../public/images/artisticRendering.png"
+import droneDelivery from "../public/images/delivery2.png"
 
 export default function Projects() {
     return (
@@ -77,6 +78,17 @@ export default function Projects() {
                 School (archive of assignments and projects for school!)
                 </Heading>
                 <SimpleGrid columns={[1, 2, 2]} gap={3} paddingTop={'10px'}>
+                <Section delay={0.05}>
+                    <WorkGridItem
+                        href="https://hub.docker.com/r/toell01/team_027_drone_sim"
+                        title="GopherDelivery"
+                        thumbnail={droneDelivery.src}>
+                        C++, TypeScript
+                    </WorkGridItem>
+                    <Text fontFamily="Inter" textAlign="center">
+                       A super fun project I did for my program design and development class!  We were given a drone delivery simulation base which we created the features for throughout the semester.  The final project was to add nontrivial extensions from the ground up with a team. My contributions were: creating cooling stations, frozen food delivery, weather cycles, and emergency landing protocols.
+                    </Text>
+                </Section>
                 <Section delay={0.05}>
                     <WorkGridItem
                         href="https://csci-4611-fall-2024.github.io/assignment-1-CorinaNC/"

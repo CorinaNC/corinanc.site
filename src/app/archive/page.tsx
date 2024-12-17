@@ -9,6 +9,16 @@ export default function Archive() {
             <Divider mb={5} />
             <HStack alignItems="center">
                 <List textDecoration="underline">
+                    <Link href="archive/endOfSemester">
+                    {'>'} End of Semester Blues
+                    </Link>
+                </List>
+                <Text textColor="#A274B8" ml={5} fontFamily="Courier">
+                    December 16th
+                </Text>
+            </HStack>
+            <HStack alignItems="center">
+                <List textDecoration="underline">
                     <Link href="archive/finishedArchive">
                     {'>'} Finished Archive
                     </Link>

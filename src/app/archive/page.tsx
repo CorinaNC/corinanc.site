@@ -14,7 +14,7 @@ export default function Archive() {
                     </Link>
                 </List>
                 <Text textColor="#A274B8" ml={5} fontFamily="Courier">
-                    December 16th
+                    December 17th
                 </Text>
             </HStack>
             <HStack alignItems="center">

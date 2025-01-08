@@ -25,7 +25,7 @@ export default function Experience() {
             timePeriod: "May 2025 - Aug 2025",
             location: "St. Paul, MN",
             icon: Trane,
-            description: "I'm an incoming software engineering intern on the building and automation (BAS) team for Trane Technologies.  I'll update my experience at Trane here :)",
+            description: "I'm an incoming software engineering intern on the building automation (BAS) team for Trane Technologies.  I'll update my experience at Trane here :)",
         },
         {
             title: "Software Developer Intern",

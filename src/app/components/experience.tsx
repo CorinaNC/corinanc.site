@@ -6,6 +6,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { StaticImageData } from "next/image";
 import Zurich from "../public/images/zurich.png";
 import UofM from "../public/images/uofM.png";
+import Trane from "../public/images/trane.png";
 
 interface Experience {
     title: string;
@@ -18,6 +19,14 @@ interface Experience {
 
 export default function Experience() {
     const experiences: Experience[] = [
+        {
+            title: "BAS Software Engineering Intern",
+            company: "Trane Technologies",
+            timePeriod: "May 2025 - Aug 2025",
+            location: "St. Paul, MN",
+            icon: Trane,
+            description: "I'm an incoming software engineering intern on the building and automation (BAS) team for Trane Technologies.  I'll update my experience at Trane here :)",
+        },
         {
             title: "Software Developer Intern",
             company: "Zurich Insurance",

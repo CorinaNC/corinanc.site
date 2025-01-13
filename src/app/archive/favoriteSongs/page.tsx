@@ -24,7 +24,7 @@ const albums = [
   { name: "5. Motionless in White - Disguise (2019)", url: "https://genius.com/albums/Motionless-in-white/Disguise" },
 ];
 
-export default function MarioMaker() {
+export default function favSongs() {
   return (
     <Article title="Favorite Songs + Album DLC" date="Posted November 16th, 2024">
       <Container mt={10} textAlign={"center"}>

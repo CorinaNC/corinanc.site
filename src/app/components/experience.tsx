@@ -25,7 +25,7 @@ export default function Experience() {
             timePeriod: "May 2024 - Aug 2024",
             location: "Anoka, MN",
             icon: Zurich,
-            description: "I worked on the Internet Services team for Zurich's subsidary RCIS (Rural Crop Insurance Services). I used .NET, Visual Studio, and SQL to do backend development on the company's RESTful API endpoints while using frontend frameworks Angular and Bootstrap for their internal web applications.",
+            description: "I worked on the Internet Services team for Zurich's subsidiary RCIS (Rural Crop Insurance Services). I used .NET, Visual Studio, and SQL to do backend development on the company's RESTful API endpoints while using frontend frameworks Angular and Bootstrap for their internal web applications.",
         },
         {
             title: "B.S. Computer Science + Creative Writing Minor",

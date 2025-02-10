@@ -75,6 +75,7 @@ export default function Projects() {
                     </Text>
                 </Section>
             </SimpleGrid>
+            <Divider />
             <Heading as="h1" size="md" mt={50} mb={50} textAlign="center">
                 School (archive of assignments and projects for school!)
                 </Heading>

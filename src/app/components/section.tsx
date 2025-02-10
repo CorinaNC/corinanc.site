@@ -14,7 +14,7 @@ const StyledDiv = chakra(motion.div, {
 }
 
 const Section = ({ children, delay = 0 }: SectionProps) => (
-  <StyledDiv>
+  <StyledDiv mb={10}>
     {children}
   </StyledDiv>
 )

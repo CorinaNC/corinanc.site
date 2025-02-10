@@ -10,6 +10,7 @@ import  multiCultural from "../public/images/MCFC.png"
 import porfolioSite from "../public/images/portfolio.png"
 import rainingHelvetica from "../public/images/helvetica.png"
 import holeInTheGround from "../public/images/hole.png"
+import ingrained from "../public/images/ingrainedLogo.png"
 import earthquakeVisualizer from "../public/images/earthQuake.png"
 import antsDance from "../public/images/ant.png"
 import tomoBread from "../public/images/tomoBread.png"
@@ -62,15 +63,15 @@ export default function Projects() {
                         A hackathon project between myself and three of my colleagues from U of MN's Social Coding club.  We utilized an arduino to measure soil information - such as moisture, temperature, and light sensitivity - which would then be sent to a web app.  I worked on the web application and API endpoints.
                     </Text>
                 </Section>
-                <Section delay={0.15}>
+                <Section delay={0.1}>
                     <WorkGridItem
-                        href="https://www.corinanc.site"
-                        title="Portfolio"
-                        thumbnail={porfolioSite.src}>
-                        Next.js & ChakraUI
+                        href="https://github.com/ajisairen/ingrained"
+                        title="Ingrained"
+                        thumbnail={ingrained.src}>
+                        MinneHack 2025
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
-                        This website!  I didn't want my portfolio to be from a template - which is what I used before - so I designed this layout on Figma (took design inspiration from <Link fontFamily="Inter" textDecoration="underline" href="https://github.com/craftzdog">Takuya Matsuyama</Link>) and built it from scratch.  I'm still working on it, but I'm proud of what I've done so far.
+                        A mobile app we created without any of our team members having experience with mobile app development.  We wanted to create an app that fostered local gardening communities with forum, marketplace, and profile capabilities.  We didn't end up winning anything but we learned a lot will probably be updating the app in the future!
                     </Text>
                 </Section>
             </SimpleGrid>

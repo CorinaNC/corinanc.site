@@ -83,7 +83,7 @@ export default function Projects() {
                         href="https://hub.docker.com/r/toell01/team_027_drone_sim"
                         title="GopherDelivery"
                         thumbnail={droneDelivery.src}>
-                        C++, TypeScript
+                        C++ & TypeScript
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
                        Drone Delivery Simulation.  Extensions included: cooling stations, weather loops, emergency protocol, and customer refunds.
@@ -138,7 +138,7 @@ export default function Projects() {
                         href="https://csci-4611-fall-2024.github.io/assignment-5-CorinaNC/"
                         title="Artistic Rendering"
                         thumbnail={artisticRendering.src}>
-                        GopherGFX, GLSL
+                        GopherGFX & GLSL
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
                         A rendering assignment which I did for CSCI 4611. I developed each of the shaders shown using GLSL. More technical than our previous assignments but enlightening nonetheless.

@@ -6,8 +6,7 @@ import Section from "../components/section"
 
 import workInProgress from "../public/images/GGJ.png"
 import soilSensing from "../public/images/SS.png"
-import  multiCultural from "../public/images/MCFC.png"
-import porfolioSite from "../public/images/portfolio.png"
+
 import rainingHelvetica from "../public/images/helvetica.png"
 import holeInTheGround from "../public/images/hole.png"
 import ingrained from "../public/images/ingrainedLogo.png"
@@ -34,10 +33,10 @@ export default function Projects() {
                         href="https://devpost.com/software/tomobread"
                         title="TomoBread"
                         thumbnail={tomoBread.src}>
-                        Hackers' Choice Award @ MadHacks 2024
+                        React, FastAPI, Pixi.js
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
-                        TomoBread is an anti-procrastination app that promotes productivity by letting the user interact with the TomoBread character!  The character's design and spritework were done by my roommate.  We learned a lot about API integration, full stack interaction, game development, and authentication.
+                        Anti-procrastination x Tamagotchi web app. I worked on frontend, backend, and data retrieval. Hackers' Choice @ MadHacks 2024
                     </Text>
                 </Section>
                 <Section delay={0.05}>
@@ -49,7 +48,7 @@ export default function Projects() {
                         Ren'Py & PyGame
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
-                        A visual novel that was developed and written individually by myself with art and music from two of my friends.  I ran into some hurdles as I went into this with no game development experience; however, we ended up outputing a final product demo!  Built for Global Game Jam 2024.
+                        An independent slice-of-life visual novel. Written, designed, and developed by . For Global Game Jam '24
                     </Text>
                 </Section>
                 <Section delay={0.1}>
@@ -57,10 +56,10 @@ export default function Projects() {
                         href="https://devpost.com/software/soilsensing-43q0ga?ref_content=user-portfolio&ref_feature=in_progress"
                         title="Soil Sensing"
                         thumbnail={soilSensing.src}>
-                        Quality Engineering @ HackUIowa 2023
+                        React & Express.js
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
-                        A hackathon project between myself and three of my colleagues from U of MN's Social Coding club.  We utilized an arduino to measure soil information - such as moisture, temperature, and light sensitivity - which would then be sent to a web app.  I worked on the web application and API endpoints.
+                        Agricultural technology to track soil contents such as moisture levels, temperature, and light sensitivity.  I worked on the web application to fetch and process weather data through the backend.  Quality Engineering @ HackUIowa '23
                     </Text>
                 </Section>
                 <Section delay={0.1}>
@@ -68,10 +67,10 @@ export default function Projects() {
                         href="https://github.com/ajisairen/ingrained"
                         title="Ingrained"
                         thumbnail={ingrained.src}>
-                        MinneHack 2025
+                        Flutter & Firebase/Firestore
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
-                        A mobile app we created without any of our team members having experience with mobile app development.  We wanted to create an app that fostered local gardening communities with forum, marketplace, and profile capabilities.  We didn't end up winning anything but we learned a lot will probably be updating the app in the future!
+                        Virtual farmers market mobile application. My contribution was connecting the app to Firebase alongside engineering the middleware and backend. Our team's first time using Flutter. Made for MinneHack 2025.
                     </Text>
                 </Section>
             </SimpleGrid>
@@ -88,7 +87,7 @@ export default function Projects() {
                         C++, TypeScript
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
-                       A super fun project I did for my program design and development class!  We were given a drone delivery simulation base which we created the features for throughout the semester.  The final project was to add nontrivial extensions from the ground up with a team. My contributions were: creating cooling stations, frozen food delivery, weather cycles, and emergency landing protocols.
+                       Drone Delivery Simulation.  Extensions included: cooling stations, weather loops, emergency protocol, and customer refunds.
                     </Text>
                 </Section>
                 <Section delay={0.05}>
@@ -99,7 +98,7 @@ export default function Projects() {
                         GopherGFX
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
-                        My first assignment for CSCI 4611 (Programming Graphics & Games).  We were assigned to create falling text which interacted with video input from the webcam.  I used U of MN's custom GopherGFX library to create this project. My contribution was the falling text, physics, and image manipulation.
+                        Simple artistic text-rain assignment which I created for CSCI 4611 (Programming Interactive Graphics & Games).
                     </Text>
                 </Section>
                 <Section delay={0.1}>
@@ -110,7 +109,7 @@ export default function Projects() {
                         GopherGFX
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
-                        For this assignment, we were tasked with programming 3D physics for hole and rigid body interactions.  I had less contribution for this assignment, as it was mostly based around the starter code which provided premade objects. I did however, implement the physics for the hole and the rigid bodies.
+                        Donut County parody created for CSCI 4611. I contributed the rigid bodies' physics and collision.
                     </Text>
                 </Section>
                 <Section delay={0.1}>
@@ -121,7 +120,7 @@ export default function Projects() {
                         GopherGFX
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
-                        I worked on an earthquake visualizer for this assignment.  There was more math involved than what I expected, but it was a fun challenge.  My contribution were the plane and globe meshes alongside the positioning and spawning of the earthquake markers.  I also implemented texture mapping for both the globe and 2d map!  The data was fetched from NASA and USGS.
+                        Earthquake visualizer created for CSCI 4611. I created the Earth meshes and data point timelapse.
                     </Text>
                 </Section>
                 <Section delay={0.1}>
@@ -132,7 +131,7 @@ export default function Projects() {
                         GopherGFX
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
-                        "So You Think Ants Can Dance" is a project I did where we worked with motion capture data from Carnegie Mellon and then mapped said data to a 3d model.  I had some technical issues building my model, but the motion data works perfectly fine!
+                        Motion capture project create for CSCI 4611. I designed the ants and fetched the mocap data to implement believable movement and physics.
                     </Text>
                 </Section>
                 <Section delay={0.1}>
@@ -143,7 +142,7 @@ export default function Projects() {
                         GopherGFX, GLSL
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
-                        This assignment was more technical rather than artistic as it was mostly practice for coding shaders.  I enjoyed coding the toon shader specifically; I'm especially glad that I got some experience with GLSL.
+                        A rendering assignment which I did for CSCI 4611. I developed each of the shaders shown using GLSL. More technical than our previous assignments but enlightening nonetheless.
                     </Text>
                 </Section>
                 <Section delay={0.1}>
@@ -154,7 +153,7 @@ export default function Projects() {
                         GopherGFX
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
-                        One of the less technical projects we did but probably the coolest (at least in my opinion).  We created a browser 'game' that is inspired by Harold's Purple Crayon where the user can draw an environment and sky to explore!  Pretty basic operations but I enjoyed seeing my tools come to life.
+                        My final assignment for 4611, being a browser game that is a spoof of Harold's Purple Crayon. The user is able to create collidable platforms and environments using the mouse.
                     </Text>
                 </Section>
             </SimpleGrid>

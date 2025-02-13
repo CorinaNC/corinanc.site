@@ -44,7 +44,6 @@ export default function Projects() {
                         href="https://globalgamejam.org/games/2024/work-progress-4"
                         title="Work In Progress"
                         thumbnail={workInProgress.src}>
-                        Global Game Jam 2024;
                         Ren'Py & PyGame
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">

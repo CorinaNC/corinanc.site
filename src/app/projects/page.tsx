@@ -48,7 +48,7 @@ export default function Projects() {
                         Ren'Py & PyGame
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
-                        An independent slice-of-life visual novel. Written, designed, and developed by . For Global Game Jam '24
+                        An independent slice-of-life visual novel. Written, designed, and developed by me. For Global Game Jam '24
                     </Text>
                 </Section>
                 <Section delay={0.1}>
@@ -70,7 +70,7 @@ export default function Projects() {
                         Flutter & Firebase/Firestore
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
-                        Virtual farmers market mobile application. My contribution was connecting the app to Firebase alongside engineering the middleware and backend. Our team's first time using Flutter. Made for MinneHack 2025.
+                        Virtual farmers market mobile app. My contribution was connecting the app to Firebase alongside engineering the middleware and backend. Our team's first time using Flutter. Made for MinneHack 2025.
                     </Text>
                 </Section>
             </SimpleGrid>

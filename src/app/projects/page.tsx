@@ -86,7 +86,7 @@ export default function Projects() {
                         C++ & TypeScript
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
-                       Drone Delivery Simulation.  Extensions included: cooling stations, weather loops, emergency protocol, and customer refunds.
+                       Drone Delivery Simulation.  Extensions included: cooling stations, frozen food delivery, weather loops, emergency protocol, and customer refunds.
                     </Text>
                 </Section>
                 <Section delay={0.05}>
@@ -130,7 +130,7 @@ export default function Projects() {
                         GopherGFX
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
-                        Motion capture project create for CSCI 4611. I designed the ants and fetched the mocap data to implement believable movement and physics.
+                        Motion capture project created for CSCI 4611. I designed the ants and fetched the mocap data to implement believable movement and physics.
                     </Text>
                 </Section>
                 <Section delay={0.1}>

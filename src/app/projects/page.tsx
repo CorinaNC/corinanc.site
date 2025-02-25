@@ -44,11 +44,10 @@ export default function Projects() {
                         href="https://globalgamejam.org/games/2024/work-progress-4"
                         title="Work In Progress"
                         thumbnail={workInProgress.src}>
-                        Global Game Jam 2024;
                         Ren'Py & PyGame
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
-                        An independent slice-of-life visual novel. Written, designed, and developed by . For Global Game Jam '24
+                        An independent slice-of-life visual novel. Written, designed, and developed by me. For Global Game Jam '24
                     </Text>
                 </Section>
                 <Section delay={0.1}>
@@ -56,6 +55,7 @@ export default function Projects() {
                         href="https://devpost.com/software/soilsensing-43q0ga?ref_content=user-portfolio&ref_feature=in_progress"
                         title="Soil Sensing"
                         thumbnail={soilSensing.src}>
+                        React & Express.js
                         React & Express.js
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
@@ -70,7 +70,7 @@ export default function Projects() {
                         Flutter & Firebase/Firestore
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
-                        Virtual farmers market mobile application. My contribution was connecting the app to Firebase alongside engineering the middleware and backend. Our team's first time using Flutter. Made for MinneHack 2025.
+                        Virtual farmers market mobile app. My contribution was connecting the app to Firebase alongside engineering the middleware and backend. Our team's first time using Flutter. Made for MinneHack 2025.
                     </Text>
                 </Section>
             </SimpleGrid>
@@ -84,10 +84,10 @@ export default function Projects() {
                         href="https://hub.docker.com/r/toell01/team_027_drone_sim"
                         title="GopherDelivery"
                         thumbnail={droneDelivery.src}>
-                        C++, TypeScript
+                        C++ & TypeScript
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
-                       Drone Delivery Simulation.  Extensions included: cooling stations, weather loops, emergency protocol, and customer refunds.
+                       Drone Delivery Simulation.  Extensions included: cooling stations, frozen food delivery, weather loops, emergency protocol, and customer refunds.
                     </Text>
                 </Section>
                 <Section delay={0.05}>
@@ -131,7 +131,7 @@ export default function Projects() {
                         GopherGFX
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
-                        Motion capture project create for CSCI 4611. I designed the ants and fetched the mocap data to implement believable movement and physics.
+                        Motion capture project created for CSCI 4611. I designed the ants and fetched the mocap data to implement believable movement and physics.
                     </Text>
                 </Section>
                 <Section delay={0.1}>
@@ -139,7 +139,7 @@ export default function Projects() {
                         href="https://csci-4611-fall-2024.github.io/assignment-5-CorinaNC/"
                         title="Artistic Rendering"
                         thumbnail={artisticRendering.src}>
-                        GopherGFX, GLSL
+                        GopherGFX & GLSL
                     </WorkGridItem>
                     <Text fontFamily="Inter" textAlign="center">
                         A rendering assignment which I did for CSCI 4611. I developed each of the shaders shown using GLSL. More technical than our previous assignments but enlightening nonetheless.

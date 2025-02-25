@@ -20,6 +20,14 @@ interface Experience {
 export default function Experience() {
     const experiences: Experience[] = [
         {
+            title: "BAS Software Engineer Intern",
+            company: "Trane Technologies",
+            timePeriod: "May 2025 - Aug 2025",
+            location: "White Bear Lake, MN",
+            icon: Trane,
+            description: "Starting May 2025 on the Building & Automations Team! Hired for Trane's UI Developer candidacy."
+        },
+        {
             title: "Software Developer Intern",
             company: "Zurich Insurance",
             timePeriod: "May 2024 - Aug 2024",
@@ -33,7 +41,7 @@ export default function Experience() {
             timePeriod: "Sep 2022 - May 2026 (expected)",
             location: "Minneapolis, MN",
             icon: UofM,
-            description: "I'm a part of the College of Science and Engineering!  My favorite course thus far has been Programming Interactive Games and Graphics.",
+            description: "I'm a part of the College of Science and Engineering!  My favorite course thus far has been Programming Interactive Games and Graphics or Intro to Poetry Writing.",
         },
     ];
 

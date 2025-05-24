@@ -12,6 +12,9 @@ export default function Archive() {
                     <Link href="archive/juniorYearInternshipHunt">
                     {'>'} Junior Year </Link>
                 </List>
+                <Text textColor="#A274B8" ml={5} fontFamily="Courier">
+                    May 24th
+                </Text>
             </HStack>
             <Heading textAlign="left" fontStyle="bold" fontFamily="Courier">
                 2024

@@ -20,7 +20,7 @@ export default function Footer() {
             </Link>
           </Box>
           <Box sx={{ _hover: { color: "Gray" } }}>
-            <Link href="mailto:conkl095@umn.edu" target="_blank">
+            <Link href="mailto:corinaconklin@gmail.com" target="_blank">
               <Icon as={IoIosMail} boxSize={{ base: 30, md: 50 }} />
             </Link>
           </Box>

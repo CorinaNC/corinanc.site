@@ -42,8 +42,8 @@ export default function Archive() {
             </HStack>
             <HStack alignItems="center">
                 <List textDecoration="underline">
-                    <Link href="archive/favoriteSongs">
-                    {'>'} Favorite Songs & Albums
+                    <Link href="archive/favoriteAlbums">
+                    {'>'} Favorite Albums
                     </Link>
                 </List>
                 <Text textColor="#A274B8" ml={5} fontFamily="Courier">

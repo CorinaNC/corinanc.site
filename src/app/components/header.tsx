@@ -26,7 +26,7 @@ export default function Header() {
           <Link href="/about">about</Link>
           <Link href="/projects">projects</Link>
           <Link href="/archive">archive</Link>
-          <Link href="https://drive.google.com/file/d/1nyp1vLaALu7a_-4U_g4W5NqKmMQHbjBK/view?usp=sharing" target="_blank">resume</Link>
+          <Link href="https://drive.google.com/file/d/1ZuC08bq6T8cgyfjN56gsmgnQ9fNGjh8g/view?usp=sharing" target="_blank">resume</Link>
         </HStack>
       </VStack>
     </Container>

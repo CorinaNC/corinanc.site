@@ -22,10 +22,10 @@ export default function Experience() {
         {
             title: "Software Engineer Intern",
             company: "Workiva",
-            timePeriod: "May 2025 - Aug 2025",
+            timePeriod: "May 2025 - Dec 2025",
             location: "Remote",
             icon: Workiva,
-            description: "Summer 2025, will be working on the UI/Frontend squad of the Chains Team.",
+            description: "Extended through December 2025!  I'm working on the Chains team primarily with their frontend/UI squad, but have dabbled in some backend work.  Currently, my work involves cleaning up the UI and adding new features to the Chains monitoring page.",
         },
         {
             title: "Software Developer Intern",

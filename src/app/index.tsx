@@ -47,7 +47,7 @@ export default function Homepage() {
                             <Stack spacing={3} 
                             pb={5}>
                                 <Text>
-                                    Greetings, my name is Corina; I'm currently a Junior at the University of Minnesota-Twin Cities studying Computer Science and Creative Writing!  My familiarity lies with web development but I'm expanding my knowledge to include mobile apps, game development, and human computer interaction.
+                                    Greetings, my name is Corina; I'm currently a Senior at the University of Minnesota-Twin Cities studying Computer Science!  My familiarity lies with web development but I'm expanding my knowledge to include mobile apps, game development, and human computer interaction.
                                 </Text>
                                 <Text>
                                     In fifth grade, when asked what I wanted to be when I grew up, I responded with: "A software developer!"

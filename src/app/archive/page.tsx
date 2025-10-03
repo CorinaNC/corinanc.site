@@ -32,16 +32,6 @@ export default function Archive() {
             </HStack>
             <HStack alignItems="center">
                 <List textDecoration="underline">
-                    <Link href="archive/finishedArchive">
-                    {'>'} Finished Archive
-                    </Link>
-                </List>
-                <Text textColor="#A274B8" ml={5} fontFamily="Courier">
-                    November 16th
-                </Text>
-            </HStack>
-            <HStack alignItems="center">
-                <List textDecoration="underline">
                     <Link href="archive/favoriteAlbums">
                     {'>'} Favorite Albums
                     </Link>

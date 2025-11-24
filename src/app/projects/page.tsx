@@ -53,7 +53,7 @@ export default function Projects() {
             title="Office PT"
             thumbnail={officePT.src}
           >
-            Electron, React, MediaPipe, Flask, Spring Boot, MongoDB
+            Electron, React, MediaPipe, OpenCV, Flask, Spring Boot, MongoDB
           </WorkGridItem>
           <Text fontFamily="Inter" textAlign="center">
             Live posture correction and RSI handbook desktop app. I worked on

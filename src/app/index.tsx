@@ -16,7 +16,7 @@ export default function Homepage() {
     
     return (
         <Container paddingTop="15px" maxW="full">
-            <Box bg="#252127" minH="100vh">
+            <Box bg="#252127" mb="1.5rem;">
                 <VStack spacing={50} align="center">
                     <HStack justifyContent="center" alignItems="center">
                         <Box pt={10} display={{ md: 'flex' }}>
@@ -47,16 +47,7 @@ export default function Homepage() {
                             <Stack spacing={3} 
                             pb={5}>
                                 <Text>
-                                    Greetings, my name is Corina; I'm currently a Senior at the University of Minnesota-Twin Cities studying Computer Science!  My familiarity lies with web development but I'm expanding my knowledge to include mobile apps, game development, and human computer interaction.
-                                </Text>
-                                <Text>
-                                    In fifth grade, when asked what I wanted to be when I grew up, I responded with: "A software developer!"
-                                </Text>
-                                <Text>
-                                    Outside of computer science, I write stories and poetry.  Additionally, I'm a hobbyist video editor and guitarist.  
-                                </Text>
-                                    <Text>
-                                    I built this website to archive my journey as a developer and as a personal blog page to whomever may be interested.
+                                    Software developer professionally specializing in full stack web development, mobile applications, UI/UX design & research, and human computer interaction. Experience developing software for the SaaS, technology, financial reporting, and insurance industries. Hobbyist writer, musician, and video editor.
                                 </Text>
                             </Stack>
                         </Box>

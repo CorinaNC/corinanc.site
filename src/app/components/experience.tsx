@@ -25,7 +25,7 @@ export default function Experience() {
             timePeriod: "May 2025 - Dec 2025",
             location: "Remote",
             icon: Workiva,
-            description: "Extended through December 2025!  I'm working on the Chains team primarily with their frontend/UI squad, but have dabbled in some backend work.  Currently, my work involves cleaning up the UI and adding new features to the Chains monitoring page.",
+            description: "I worked on the fast-paced and startup-like Chains team to take full product ownership over a key customer-facing web page to improve the experience for 750+ enterprise clients.  This work allowed me to collaborate with company stakeholders and senior engineers, primarily leading UI/UX prototyping and full-stack code work.  In this role, I used Elixir, Ruby on Rails, and PostgreSQL on the backend with React, Figma, and GraphQL on the frontend.",
         },
         {
             title: "Software Developer Intern",

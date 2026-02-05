@@ -15,6 +15,9 @@ export default function Archive() {
       <Divider mb={5} />
       <HStack alignItems="center">
         <List textDecoration="underline">
+          <Link href="archive/videoGames">
+            <Text _hover="">{">"} Game Log</Text>
+          </Link>
           <Link href="archive/favoriteAlbums">
             <Text _hover="">{">"} Favorite Albums</Text>
           </Link>

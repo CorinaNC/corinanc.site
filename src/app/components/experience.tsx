@@ -6,6 +6,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { StaticImageData } from "next/image";
 import Zurich from "../public/images/zurich.png";
 import UofM from "../public/images/uofM.png";
+import Fanatics from "../public/images/fanatics.png"
 import Workiva from "../public/images/workiva.png";
 
 interface Experience {
@@ -19,6 +20,14 @@ interface Experience {
 
 export default function Experience() {
     const experiences: Experience[] = [
+        {
+            title: "Software Engineer I",
+            company: "Fanatics",
+            timePeriod: "February 2026 - Present",
+            location: "Remote",
+            icon: Fanatics,
+            description: "I'm going to be working on the Fanatics Sportsbook Casino!"
+        },
         {
             title: "Software Engineer Intern",
             company: "Workiva",
@@ -36,12 +45,12 @@ export default function Experience() {
             description: "I worked on the Internet Services team for Zurich's subsidiary RCIS (Rural Crop Insurance Services). I used .NET, Visual Studio, and SQL to do backend development on the company's RESTful API endpoints while using frontend frameworks Angular and Bootstrap for their internal web applications.",
         },
         {
-            title: "B.S. Computer Science + Creative Writing Minor",
+            title: "B.S. Computer Science",
             company: "University of Minnesota-Twin Cities",
             timePeriod: "Sep 2022 - Dec 2025",
             location: "Minneapolis, MN",
             icon: UofM,
-            description: "I'm a part of the College of Science and Engineering!  My favorite course thus far has been Programming Interactive Games and Graphics or Intro to Poetry Writing.",
+            description: "I graduated with my Bachelors in Computer Science in December 2025.  The main electives I took were focused on web development, UI design, data visualization, and graphics programming.  My favorite classes during my time at the U of MN were Ethics in Technology & Society, Programming Interactive Graphics and Games, Intenet Programming, and Intro to Poetry Writing.",
         },
     ];
 

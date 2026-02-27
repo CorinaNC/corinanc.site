@@ -21,12 +21,12 @@ interface Experience {
 export default function Experience() {
     const experiences: Experience[] = [
         {
-            title: "Software Engineer I",
+            title: "Software Engineer II",
             company: "Fanatics",
             timePeriod: "February 2026 - Present",
             location: "Remote",
             icon: Fanatics,
-            description: "I'm going to be working on the Fanatics Sportsbook Casino!"
+            description: "Working with the Betslip team on the Fanatics Sportsbook mobile application.  Primarily focusing on 'My Bets' and 'Betslip' respectively."
         },
         {
             title: "Software Engineer Intern",
@@ -50,7 +50,7 @@ export default function Experience() {
             timePeriod: "Sep 2022 - Dec 2025",
             location: "Minneapolis, MN",
             icon: UofM,
-            description: "I graduated with my Bachelors in Computer Science in December 2025.  The main electives I took were focused on web development, UI design, data visualization, and graphics programming.  My favorite classes during my time at the U of MN were Ethics in Technology & Society, Programming Interactive Graphics and Games, Intenet Programming, and Intro to Poetry Writing.",
+            description: "I graduated with my Bachelors in Computer Science in December 2025.  The main electives I took were focused on web development, UI design, data visualization, and graphics programming.  My favorite classes during my time at the U of MN were Ethics in Technology & Society, Programming Interactive Graphics and Games, Internet Programming, and Intro to Poetry Writing.",
         },
     ];
 

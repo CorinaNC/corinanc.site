@@ -26,7 +26,7 @@ export default function Experience() {
             timePeriod: "February 2026 - Present",
             location: "Remote",
             icon: Fanatics,
-            description: "Working with the Betslip team on the Fanatics Sportsbook mobile application.  Primarily focusing on 'My Bets' and 'Betslip' respectively."
+            description: "Working with the Betslip team on the Fanatics Sportsbook mobile application."
         },
         {
             title: "Software Engineer Intern",
